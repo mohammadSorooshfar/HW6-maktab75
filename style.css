@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 230, 232);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    color: rgb(96, 97, 97);
+}
+.form{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 85%;
+}
+.imageDiv{
+    position: relative;
+    margin-bottom: 20px;
+}
+.imageDiv h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+}
+input{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.usernameDiv input, .passwordDiv input{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+label{
+    margin-top: 10px;
+}
+a{
+    color: rgb(96, 97, 97);
+    text-decoration: none;
+    margin-left: 140px;
+}
+.rememberDiv{
+    margin-left: 70px;
+}
+button{
+    border-style: none;
+    color: white;
+    background-color: green;
+    width: 25%;
+    height: 50px;
+    border-radius: 35px;
+    font-size: 15pt;
+    margin-right: 130px;
+}
