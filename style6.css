@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    color: white;
+}
+.background{
+    opacity: 0.2;
+}
+.form{
+    background-image: linear-gradient(
+  0deg,
+  hsl(272deg 76% 53%) 0%,
+  hsl(270deg 76% 52%) 11%,
+  hsl(268deg 76% 52%) 22%,
+  hsl(266deg 76% 51%) 34%,
+  hsl(264deg 77% 50%) 47%,
+  hsl(262deg 81% 49%) 62%,
+  hsl(260deg 86% 47%) 80%,
+  hsl(260deg 100% 44%) 100%
+);   
+ width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+h1{
+    margin-bottom: 10px;
+}
+.imageDiv img{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 15px;
+    opacity: 85%;
+    background-color: white;
+}
+.usernamePassword input{
+    margin-bottom: 30px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    
+    padding-left: 40px;
+}
+.usernamePassword input::placeholder{
+    color: white;
+}
+.usernamePassword{
+    position: relative;
+}
+.userimage {
+    position: absolute;
+    top: 5px;
+    left: 122px;
+    width: 27px;
+    filter: brightness(0) invert(1);
+}
+.lock{
+    position: absolute;
+    top: 6px;
+    left: 123px;
+    width: 25px;
+    filter: brightness(0) invert(1);
+}
+.rememberDiv{
+    margin-bottom: 30px;
+    margin-right: 240px;
+}
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-style: none;
+}
+a{
+    color: rgb(184, 175, 175);
+    text-decoration: none;
+}
+button{
+    border-style: none;
+    color: black;
+    background-color: white;
+    width: 15%;
+    height: 40px;
+    border-radius: 35px;
+    font-size: 10pt;
+    margin-bottom: 50px;
+}
